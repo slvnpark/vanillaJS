@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JS FINAL</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Gowun+Batang&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- 아이콘 -->
+    <script src="https://kit.fontawesome.com/6ead36a5d1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="wrap">
+        
+<div class="clock_weather"> <!-- 시계, 날씨 -->
+    <div class="boxing_clock">
+        <div class="weather_clock_box">
+            <div class="weather_alert" id="weather">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="clock"></div>
+        </div>
+    </div>
+</div>
+
+        <div class="login_todo">
+            <div class="box_two"> <!-- 로그인 화면 -->
+                <div class="login_box">
+                    <div class="text_login">당신의 이름을 입력하세요. (최대 15글자)</div>
+                    <form class="hidden" id="loginForm" action="">
+                        <input class="loginInput" type="text" required
+                        maxlength="15">
+                        <!-- <button class="loginButton">Log In</button> -->
+                    </form>
+                    <div id="greeting" class="hidden"></div>
+                </div>
+            </div>
+    
+            <div class="box_three"> <!-- 투두 리스트 -->
+                <div class="todo_box">
+                    <div class="text_todo">할일 적기</div>
+                    <form id="todoForm">
+                        <input class="todo_input" type="text">
+                    </form>
+                    <ul id="todoList">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bgImage"></div> <!-- 배경화면 -->
+        
+    </div>
+
+
+    <script src="js/clock.js"></script>
+    <script src="js/bgimg.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/loginform.js"></script>
+    <script src="js/todolist.js"></script>
+</body>
+</html>
+
+
+<!-- 
+font-family: 'Fugaz One', cursive;
+font-family: 'Gowun Batang', serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Rampart One', cursive;
+font-family: 'Song Myung', serif; 
+-->
+<!-- 
+12BAD0
+ED3A53
+5FCFE2
+FDDA04
+E7DEDD
+ -->
